@@ -1,0 +1,65 @@
+{
+  "id": "doomsong-zh-tw",
+  "title": "末日之歌（Doomsong）—正體中文",
+  "description": "<p>為 FVTT 中的末日之歌系统增加正體中文。</p>",
+  "authors": [
+    {
+      "name": "Sass",
+      "discord": "sassttrpg",
+      "flags": {}
+    }
+  ],
+  "url": "https://gitlab.com/fvtt-zh_TW/doomsong-zh-tw",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "register.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "doomsong",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "zh-tw.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://gitlab.com/fvtt-zh_TW/doomsong-zh-tw/-/raw/1.0.0/module.json",
+  "download": "https://gitlab.com/fvtt-zh_TW/doomsong-zh-tw/-/archive/1.0.0/doomsong-zh-tw-1.0.0.zip",
+  "packs": [
+  ],
+  "packFolders": [
+  ],
+  "flags": {}
+}
