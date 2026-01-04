@@ -37,6 +37,11 @@
         "id": "dice-so-nice",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "doomsong-dice",
+        "type": "module",
+        "compatibility": {}
       }
     ],
     "systems": [
@@ -58,8 +63,17 @@
   "manifest": "https://gitlab.com/fvtt-zh_TW/doomsong-zh-tw/-/raw/1.0.0/module.json",
   "download": "https://gitlab.com/fvtt-zh_TW/doomsong-zh-tw/-/archive/1.0.0/doomsong-zh-tw-1.0.0.zip",
   "packs": [
-  ],
-  "packFolders": [
+    {
+      "name": "advpack",
+      "label": "冒險",
+      "path": "packs/advpack",
+      "type": "Adventure",
+      "system": "doomsong",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ],
   "flags": {}
 }
